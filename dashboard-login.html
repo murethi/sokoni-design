@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Login</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css"/>
+    <script src="https://kit.fontawesome.com/6015b1fbea.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div style="min-height: 100vh">
+        <div class="uk-grid uk-child-width-1-2@m uk-flex-center">
+            <div id="login-card">
+                <div>
+                    <p class="uk-text-center uk-margin-remove"><span class="secure-icon">
+           <i uk-icon="icon:lock;ratio:2;"></i>
+       </span></p>
+                    <h4 class="uk-text-center uk-margin-remove-top">Login to your dashboard</h4>
+                    <form class="uk-form-stacked">
+
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="form-stacked-text">Email Address</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="form-stacked-text" required autofocus type="email" placeholder="e.g yourname@example.com">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="form-stacked-text">Password</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" required id="form-stacked-password" type="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <p><a href="">Forgot your password?</a></p>
+                        <button type="submit" class="uk-width-1-1 uk-button uk-button-secondary">Login</button>
+                    </form>
+                </div>
+                <div>
+                    <p class="uk-margin-remove uk-text-center">
+                        Phonetronnix is powered by <a href="">Lindi</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

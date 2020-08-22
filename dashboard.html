@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css"/>
+    <script src="https://kit.fontawesome.com/6015b1fbea.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <main class="uk-grid uk-grid-collapse">
+        <div id="dashboard-navigation">
+            <div class="">
+                <div id="shop-name">
+                    <p>Phone Tronixx</p>
+                    <small><b>Member since: </b> 11 Jan 20</small>
+                </div>
+                <div class="dashboard-nav-links">
+                    <h5 class="navigation-header">Your Business</h5>
+                    <a href=""><i class="fa fa-users"></i> Customers</a>
+                    <a href=""><i class="fa fa-money-bill-wave"></i> Transactions</a>
+                    <a href=""><i class="fa fa-money-check"></i> Withdrawals</a>
+                    <a href=""><i class="fa fa-piggy-bank"></i> Balance</a>
+                </div>
+                <div class="dashboard-nav-links">
+                    <h5 class="navigation-header">Store</h5>
+                    <a href=""><i class="fa fa-store"></i> My store</a>
+                    <a href=""><i class="fa fa-gifts"></i> Products</a>
+                    <a href=""><i class="fa fa-concierge-bell"></i> Services</a>
+                    <a href=""><i class="fa fa-truck-loading"></i> Orders</a>
+                    <a href=""><i class="fa fa-gifts"></i> Deals & Offers</a>
+                </div>
+                <div class="dashboard-nav-links">
+                    <h5 class="navigation-header">Store</h5>
+                    <a href=""><i class="fa fa-store"></i> My store</a>
+                    <a href=""><i class="fa fa-gifts"></i> Products</a>
+                    <a href=""><i class="fa fa-concierge-bell"></i> Services</a>
+                    <a href=""><i class="fa fa-gifts"></i> Deals & Offers</a>
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-expand@s">
+            <div id="page-content">
+                <div id="top-nav">
+                    <div class="uk-grid">
+                        <div class="uk-width-auto">
+                            <span class="menu-bars" uk-toggle="target: #dashboard-navigation;animation:uk-animation-slide-left"><i class="fa fa-bars"></i></span >
+                        </div>
+                        <div class="uk-width-expand@s">
+
+                        </div>
+                        <div class="uk-width-auto@s">
+                            <div>
+                                <img src="img/1200px-Circle-icons-profile.svg.png" width="30" alt="">
+                                <div uk-dropdown>
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li class="uk-active"><a href="#">My account</a></li>
+                                        <li><a href="#">Settings</a></li>
+                                        <li><a href="#">Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <section>
+                    <div class="amplify-card">
+                        <div class="amplify-card-header">
+                            <div class="amplify-card-title">
+                                Dashboard Overview
+                            </div>
+                            <div>
+                                <a href="" class="amplify-button bg-white">Link 01</a>
+                                <a href="" class="amplify-button bg-white">Link 02</a>
+                            </div>
+                        </div>
+                        <div class="amplify-card-body amplify-transparent">
+
+                        </div>
+                    </div>
+                    <div class="amplify-card">
+                        <div class="amplify-card-header">
+                            <div class="amplify-card-title">
+                                Dashboard Overview
+                            </div>
+                            <div>
+                                <a href="" class="amplify-button bg-white">Link 01</a>
+                                <a href="" class="amplify-button bg-white">Link 02</a>
+                            </div>
+                        </div>
+                        <div class="amplify-card-body">
+                            <img src="img/undraw_warning_cyit.svg" class="no-data-image" width="200" alt="">
+                            <p class="no-data-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="amplify-card">
+                        <div class="amplify-card-header">
+                            <div class="amplify-card-title">
+                                Dashboard Overview
+                            </div>
+                            <div>
+                                <a href="" class="amplify-button bg-white">Link 01</a>
+                                <a href="" class="amplify-button bg-white">Link 02</a>
+                            </div>
+                        </div>
+                        <div class="amplify-card-body">
+                            <table class="uk-table data-table uk-table-small uk-table-divider">
+                                <thead>
+                                <tr>
+                                    <th>Detail</th>
+                                    <th>Amount</th>
+                                    <th>Channel</th>
+                                    <th>Date</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Payment from 254721946116</td>
+                                    <td>KSH 2,900</td>
+                                    <td>Mpesa</td>
+                                    <td>11 <sup>th</sup> 08,2020</td>
+                                </tr>
+                                <tr>
+                                    <td>Payment from 254721946116</td>
+                                    <td>KSH 2,900</td>
+                                    <td>Mpesa</td>
+                                    <td>11 <sup>th</sup> 08,2020</td>
+                                </tr>
+                                <tr>
+                                    <td>Payment from 254721946116</td>
+                                    <td>KSH 2,900</td>
+                                    <td>Mpesa</td>
+                                    <td>11 <sup>th</sup> 08,2020</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </main>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

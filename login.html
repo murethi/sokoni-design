@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css"/>
+    <script src="https://kit.fontawesome.com/6015b1fbea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div class="nav ">
+        <div id="nav-contacts">
+
+            <a href="">0721946116</a>
+
+            <a href="">email@domain.com</a>
+        </div>
+        <div id="nav-links">
+            <a id="menu-icon" class="uk-hidden@s" href=""><i class="fa fa-bars"></i></a>
+
+            <div class="uk-inline">
+                <a class="nav-link" type="button">My Account <i uk-icon="chevron-down"></i></a>
+                <div class="custom-dropdown" uk-dropdown="animation:uk-animation-slide-top-small;pos: bottom-right">
+                    <ul class="uk-nav uk-dropdown-nav">
+                        <li class="uk-active"><a href="#">Sign In</a></li>
+                        <li><a href="#">My cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header-center">
+        <div id="header-logo">
+            <a href=""><img src="http://demo.roadthemes.com/angara/wp-content/uploads/2017/01/logo.png" alt=""></a>
+        </div>
+        <div class="nav-search">
+            <form class="uk-search uk-search-default">
+                <a href="" class="uk-search-icon-flip" uk-search-icon></a>
+                <input class="uk-search-input" type="search" placeholder="Search...">
+            </form>
+        </div>
+        <div>
+            <a href="" class="header-icon"> <i uk-icon="icon:heart;ratio:1.5"></i></a>
+            <a href="" class="header-icon"> <i uk-icon="icon:basket;ratio:1.5"></i></a>
+            <a href="" class="header-icon"> <i uk-icon="icon:heart;ratio:1.5"></i></a>
+        </div>
+    </div>
+</header>
+<div class="uk-grid uk-child-width-1-2@m uk-flex-center">
+   <div id="login-card">
+        <div>
+            <p class="uk-text-center uk-margin-remove"><span class="secure-icon">
+           <i uk-icon="icon:lock;ratio:2;"></i>
+       </span></p>
+            <h4 class="uk-text-center uk-margin-remove-top">Login to your account</h4>
+            <form class="uk-form-stacked">
+
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-text">Email Address</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="form-stacked-text" required autofocus type="email" placeholder="e.g yourname@example.com">
+                    </div>
+                </div>
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-text">Password</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" required id="form-stacked-password" type="password" placeholder="Password">
+                    </div>
+                </div>
+                <p><a href="">Forgot your password?</a></p>
+                <button type="submit" class="uk-width-1-1 uk-button uk-button-secondary">Login</button>
+            </form>
+        </div>
+       <div>
+            <p class="uk-margin-remove uk-text-center">
+                Phonetronnix is powered by <a href="">Lindi</a>
+            </p>
+       </div>
+   </div>
+</div>
+<footer>
+    <div>
+        <p class="uk-text-center uk-margin-remove">Phoneshop is powered by Lindi</p>
+    </div>
+</footer>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

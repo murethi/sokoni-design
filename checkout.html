@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css"/>
+    <script src="https://kit.fontawesome.com/6015b1fbea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<header>
+    <div class="nav ">
+        <div id="nav-contacts">
+
+            <a href="">0721946116</a>
+
+            <a href="">email@domain.com</a>
+        </div>
+        <div id="nav-links">
+            <a id="menu-icon" class="uk-hidden@s" href=""><i class="fa fa-bars"></i></a>
+
+            <div class="uk-inline">
+                <a class="nav-link" type="button">My Account <i uk-icon="chevron-down"></i></a>
+                <div class="custom-dropdown" uk-dropdown="animation:uk-animation-slide-top-small;pos: bottom-right">
+                    <ul class="uk-nav uk-dropdown-nav">
+                        <li class="uk-active"><a href="#">Sign In</a></li>
+                        <li><a href="#">My cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header-center">
+        <div id="header-logo">
+            <a href=""><img src="http://demo.roadthemes.com/angara/wp-content/uploads/2017/01/logo.png" alt=""></a>
+        </div>
+        <div class="nav-search">
+            <form class="uk-search uk-search-default">
+                <a href="" class="uk-search-icon-flip" uk-search-icon></a>
+                <input class="uk-search-input" type="search" placeholder="Search...">
+            </form>
+        </div>
+        <div>
+            <a href="" class="header-icon"> <i uk-icon="icon:heart;ratio:1.5"></i></a>
+            <a href="" class="header-icon"> <i uk-icon="icon:basket;ratio:1.5"></i></a>
+            <a href="" class="header-icon"> <i uk-icon="icon:cart;ratio:1.5"></i></a>
+        </div>
+    </div>
+</header>
+<div id="checkout">
+    <div class="uk-grid uk-grid-collapse uk-grid-match uk-child-width-1-2@s">
+        <div id="checkout-form">
+            <h3 id="checkout-shopname">Phone tronixx</h3>
+            <ul class="uk-breadcrumb uk-margin-remove">
+                <li><a href="">Cart</a></li>
+                <li><a href="">Information</a></li>
+                <li><a href="">Shipping</a></li>
+                <li><span>Payment</span></li>
+            </ul>
+            <form action="">
+                <h2 class="checkout-section-heading"><span>Contact information</span><small>Already have an account? <a href="">Log in</a></small></h2>
+                <small class="field-description">In case we need to contact you about your order</small>
+                <input type="text" placeholder="Enter your phone number" class="uk-input">
+                <h2 class="checkout-section-heading"><span>Shipping address</span></h2>
+                <div class="uk-grid uk-child-width-1-2@s uk-grid-small">
+                    <div>
+                        <input type="text" placeholder="First Name" class="uk-input">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Last Name" class="uk-input">
+                    </div>
+                </div>
+                <div class="uk-grid uk-child-width-1-1 uk-grid-small">
+                    <div>
+                        <input type="text" placeholder="Address" class="uk-input">
+                    </div>
+                </div>
+                <div class="uk-grid uk-child-width-1-2@s uk-grid-small">
+                    <div>
+                        <input type="text" placeholder="Postal Code" class="uk-input">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="City" class="uk-input">
+                    </div>
+                </div>
+                <div class="checkout-actions">
+                    <div>
+                        <a href="">Return to cart</a>
+                    </div>
+                    <div>
+                       <button class="uk-button uk-button-secondary">Continue</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <div id="checkout-info">
+                <div class="cart-items">
+                    <div>
+                        <div class="uk-grid">
+                            <div class="uk-width-auto">
+                                <img src="https://dukatech.co.ke/duka/uploads/2018/01/Sandisk-USB-16GB-Flash-Drive--600x600.jpg" width="70" alt="">
+                            </div>
+                            <div class="uk-width-expand">
+                                <span><b>Quantity: </b> 1</span>
+                                <p class="uk-margin-remove">Sandisk cruzerblade flashdisk</p>
+                            </div>
+                            <div class="uk-width-auto"><span>Ksh 1,900</span></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-grid">
+                            <div class="uk-width-auto">
+                                <img src="https://dukatech.co.ke/duka/uploads/2018/01/Sandisk-USB-16GB-Flash-Drive--600x600.jpg" width="70" alt="">
+                            </div>
+                            <div class="uk-width-expand">
+                                <span><b>Quantity: </b> 1</span>
+                                <p class="uk-margin-remove">Sandisk cruzerblade flashdisk</p>
+                            </div>
+                            <div class="uk-width-auto"><span>Ksh 1,900</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cart-total">
+                    <h4>
+                        <span><b>Subtotal</b></span>
+                        <span>Ksh 3,800</span>
+                    </h4>
+                    <h4>
+                        <span><b>Shipping <i uk-icon="question" title="pop" uk-tooltip></i></b></span>
+                        <small>Calculated at next step</small>
+                    </h4>
+                    <hr>
+                    <h4>
+                        <span><b>Total</b></span>
+                        <span id="total-price">Ksh 3,800</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
